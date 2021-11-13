@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
         var checkBox: CheckBox = findViewById(R.id.checkbox)
 
         checkBox.setOnClickListener {
-            Toast.makeText(this, "Hi there! Thank you for placing your order !!.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Order will be remembered", Toast.LENGTH_LONG).show()
 
             if (checkBox.isChecked()){
-                Toast.makeText(this,"Order will be remembered",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"Hi there! Thank you for placing your order !!. ",Toast.LENGTH_LONG).show();
             }
         }
 

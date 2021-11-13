@@ -41,69 +41,86 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="15dp"
         android:hint="Enter Your Address"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:maxLines="1"
         android:padding="6dp"
         android:textColorHint="#ff0006"
         android:textSize="20sp" />
 
-    <RadioGroup
-        android:id="@+id/radiogroup"
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="304dp"
+        android:text="Paneer Butter Masala"
+        android:textColor="#ff0006"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="345dp"
+        android:text="Paneer Kadhai"
+        android:textColor="#ff0006"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="386dp"
+        android:text="Butter Roti"
+        android:textColor="#ff0006"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="425dp"
+        android:text="Tandoori Roti"
+        android:textColor="#ff0006"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="468dp"
+        android:text="CONFIRM MY ORDER "
+        android:textColor="#ff0006"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radiobtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/etPassword"
-        android:layout_marginTop="-2dp">
-
-        <RadioButton
-            android:id="@+id/radiobtn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/etPassword"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="15dp"
-            android:text="Paneer Butter Masala"
-            android:textColor="#ff0006"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <RadioButton
-            android:id="@+id/radiobtn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/etPassword"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginRight="15dp"
-            android:text="Paneer Kadhai"
-            android:textColor="#ff0006"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-        <RadioButton
-            android:id="@+id/radiobtn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/etPassword"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginRight="15dp"
-            android:text="Tandoori Roti"
-            android:textColor="#ff0006"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-        <RadioButton
-            android:id="@+id/radiobtn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/etPassword"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginRight="15dp"
-            android:text="Butter Naan"
-            android:textColor="#ff0006"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </RadioGroup>
+        android:layout_below="@+id/etPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginRight="15dp"
+        android:text="Remenber Me"
+        android:textColor="#ff0006"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/order_btn"
@@ -111,7 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginTop="565dp"
         android:layout_marginRight="15dp"
         android:background="@drawable/btn_round"
 
@@ -134,17 +151,7 @@
         android:textColor="#ff0006"
         android:textSize="20sp" />
 
-    <CheckBox
-        android:id="@+id/checkbox1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/radiogroup"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="23dp"
-        android:text="Remember Me"
-        android:textColor="#ff0006"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+
 
     <TextView
         android:id="@+id/regLater"
